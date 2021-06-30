@@ -1,11 +1,17 @@
-.background {
-    background-image: url("Images/hangmanbackground.jpg");
-    background-color: #cccccc;
-    height: 535px;
-    width: 800px;
-    margin: 0 auto;
-}
-
-div {
-    color: aqua;
-}
+    html {
+        background-image: url("Images/hangmanbackground2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    
+    html body {
+        background-color: transparent;
+    }
+    
+    div {
+        color: black;
+        text-shadow: 2px 2px red
+    }
+    
+    #keyboard {}
